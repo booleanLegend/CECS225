@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/VivadoA2Z/VivadoA2Z.srcs/sources_1/new/fullExpression.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fullExpression
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/VivadoA2Z/VivadoA2Z.srcs/sim_1/new/TestBench1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TestBench1
+INFO: [VRFC 10-2263] Analyzing Verilog file "Z:/VivadoA2Z/VivadoA2Z.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

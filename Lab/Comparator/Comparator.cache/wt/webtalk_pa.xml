@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Mon Oct 19 20:15:52 2020">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="00ddfdc7e8754d3a9ed9782566c572aa" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="2" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="OpenProject" value="1" type="JavaHandler"/>
+<property name="RunSchematic" value="6" type="JavaHandler"/>
+<property name="SaveAllFiles" value="4" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
+<property name="SimulationRun" value="1" type="JavaHandler"/>
+<property name="ZoomFit" value="2" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="FINISH, Finish" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="3" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, Open Messages View" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, TestBench" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 0, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS,  ; input ; false ; 0 ; 0, 1, (String" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, a, 0, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, output, 1, Direction, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, y ; input ; false ; 0 ; 0, 1, input, 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, y, 1, Port Name, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, Run Behavioral Simulation" value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_ZOOM_FIT, Schematic_zoom_fit" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, even8BitParity (even2BitParity.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, TestBench (TestBench.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 3" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Elaborated Design, Schematic], 18, false" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design, Schematic], 17, false" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, RTL Analysis, Open Elaborated Design], 14" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Simulation, Run Simulation], 11, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_OPEN_PROJECT, Open Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="10" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_SCHEMATIC, Schematic" value="7" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectTab_RELOAD, Reload" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SaveProjectUtils_SAVE, Save" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="6" type="GuiResourceData"/>
+<property name="RDIResource.ConfirmSaveTextEditsDialog_YES, Yes" value="4" type="GuiResourceData"/>
+<property name="RDIResource.ProgressDialog_BACKGROUND, Background" value="7" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_SAVE_ALL_FILES, Save All Files..." value="4" type="GuiResourceData"/>
+<property name="TestBench.v, 1, 385, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 100, 211" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 105, 350" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 133, 266" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 147, 450" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 150, 350" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 181, 263" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 187, 348" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 188, 263" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 188, 448" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 232, 450" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 234, 349" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 238, 262" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 270, 448" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 272, 347" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 28, 264, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 314, 349" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 35, 266" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 356, 346" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 398, 346" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 462, 348" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 495, 431" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 540, 433" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 542, 434" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 55, 196" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 56, 196" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 581, 432" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 625, 434" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 66, 452" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 665, 432" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 68, 228" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 68, 264" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 69, 455" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 71, 229" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 83, 194" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 83, 199" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 92, 416" value="1" type="GuiResourceData"/>
+<property name="TestBench.v, 97, 212" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 121, 385" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 160, 500" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 161, 420" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 167, 504, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 167, 517, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 203, 537" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 210, 534" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 212, 536" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 213, 414" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 215, 404" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 215, 499" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 216, 454" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 258, 519" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 26, 506, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 262, 536" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 263, 502" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 263, 521, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 264, 501, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 266, 523" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 267, 503" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 269, 504" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 270, 451" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 270, 501" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 271, 521" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 278, 503" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 278, 519" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 28, 500, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 285, 515" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 297, 533" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 3, 215, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 309, 499" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 318, 501" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 319, 501" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 319, 518" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 327, 534" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 340, 520" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 347, 507" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 354, 545" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 361, 520" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 377, 489" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 62, 555" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 63, 237" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 74, 381, true, false, false, false, false" value="1" type="GuiResourceData"/>
+<property name="even2BitParity.v, 86, 379" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="1" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="0" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
